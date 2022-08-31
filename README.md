@@ -1,6 +1,6 @@
 # tinder_mockup
 
-A new Flutter project.
+A chaleng of Masterclass 5 - Fluterando.
 
 ## Getting Started
 
