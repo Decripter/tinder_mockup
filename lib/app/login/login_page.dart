@@ -61,7 +61,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 100,
               ),
               const Padding(
@@ -76,7 +76,7 @@ class _LoginPageState extends State<LoginPage> {
                   style: TextStyle(color: Colors.white, fontSize: 12),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 12,
               ),
               Padding(
@@ -95,12 +95,12 @@ class _LoginPageState extends State<LoginPage> {
                   ],
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 16,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: [
+                children: const [
                   Text(
                     'Trouble Signing In?',
                     style: TextStyle(color: Colors.white, fontSize: 12),

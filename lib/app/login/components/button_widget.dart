@@ -12,7 +12,7 @@ class ButtonWidget extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
             border: Border.all(color: Colors.white, width: 1.2),
-            borderRadius: BorderRadius.all(Radius.circular(50))),
+            borderRadius: const BorderRadius.all(Radius.circular(50))),
         child: Row(
           children: [
             Padding(
