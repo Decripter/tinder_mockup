@@ -20,6 +20,7 @@ class ButtonWidget extends StatelessWidget {
               child: Image.asset(
                 icon,
                 width: 16,
+                filterQuality: FilterQuality.high,
               ),
             ),
             Expanded(
@@ -28,7 +29,7 @@ class ButtonWidget extends StatelessWidget {
                 children: [
                   Text(
                     text,
-                    style: const TextStyle(color: Colors.white, fontSize: 13),
+                    style: const TextStyle(color: Colors.white, fontSize: 12),
                   ),
                 ],
               ),
