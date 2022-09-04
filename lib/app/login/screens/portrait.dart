@@ -14,18 +14,14 @@ class _PortraitModeState extends State<PortraitMode> {
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     double height = size.height;
-    double width = size.width;
-    double paddingLogo = size.height * 0.38;
 
-    if (size.width < 400) {
-      paddingLogo = size.height * 0.38 - size.width * 0.3;
-    }
     double paddingSevenPercentWidth = size.width * 0.07;
     double fontSizeByWidth = size.width * 0.03;
 
     if (fontSizeByWidth > 28) {
       fontSizeByWidth = 28;
     }
+
     return Column(
       children: [
         Column(
